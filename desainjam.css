@@ -1,0 +1,50 @@
+/* Reset margin dan padding agar bersih */
+
+
+body {
+    background-color: #121212; /* Warna latar gelap */
+    color: #ffffff;           /* Warna teks putih */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;  /* Center horizontal */
+    align-items: center;      /* Center vertikal */
+    height: 100vh;            /* Pakai seluruh tinggi layar */
+}
+
+h3 {
+    letter-spacing: 1px;
+}
+
+.bingkai {
+    background: #1e1e1e;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    border: 1px solid #333;
+}
+
+#weton {
+    font-size: 3rem;
+    color: #00d2ff; /* Warna biru muda cerah */
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#tanggal {
+    font-size: 1.5rem;
+    color: #bbbbbb;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+#jam {
+    font-size: 2rem;
+    color: #ff9f43; /* Warna oranye agar kontras */
+    font-family: 'Courier New', Courier, monospace; /* Font ala digital */
+    background: #2d2d2d;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
